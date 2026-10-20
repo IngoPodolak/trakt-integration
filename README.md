@@ -1,3 +1,7 @@
+> **Fork with PKCE support.** Trakt no longer issues a client secret for new API apps (since October 2026) and requires PKCE sign-in.
+> This fork accepts a Client ID only: leave the *Client secret* field empty. Older apps that still have a secret keep working.
+> Upstream issue: https://github.com/dylandoamaral/trakt-integration/issues/180
+
 <h1 align="center">Trakt Integration</h1>
 
 <p align="center">
